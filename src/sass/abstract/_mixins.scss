@@ -9,14 +9,12 @@
 @mixin morphism {
   background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2)80%,rgba(16, 242, 231, 0.1));
   border-radius: 5px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   &__inside{
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
     border: 1px solid rgba(255, 255, 255, 0.3);

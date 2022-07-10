@@ -28,41 +28,31 @@ const App = () => {
         }
     ];
 
-    const smallHeading1="Healthcare Facilities";
-    const bigHeading1="Our Last Healthcare ";
+    const smallHeading1 = "Healthcare Facilities";
+    const bigHeading1 = "Our Last Healthcare";
+    const smallHeading2 = "testimonial";
+    const bigHeading2 = "Patients Says About Us";
+    const smallHeading3 = "Team Doctor";
+    const bigHeading3 = "Meet Our Specialist";
 
-  return (
-    <>
-      <div className="container-fluid">
-        <div className="mt-3">
-          <TopBar />
-        </div>
-      </div>
-      <div className={"container-fluid"}>
-        <Header title={headerTitle} text={headerText} details={headerDetails} />
-      </div>
-      <Heading smallTitle={smallHeading1} bigTitle={bigHeading1} />
-      <TextCardContainer />
-    </>
-  );
-};
     return (
         <>
             <div className="container-fluid">
                 <div className="mt-3">
-                    <TopBar />
+                    <TopBar/>
                 </div>
             </div>
-            <div className={"container"}>
-            <Header title={headerTitle} text={headerText} details={headerDetails}/>
+            <div className={"container-fluid"}>
+                <Header title={headerTitle} text={headerText} details={headerDetails}/>
             </div>
             <Heading smallTitle={smallHeading1} bigTitle={bigHeading1}/>
             <TextCardContainer/>
+            <Heading smallTitle={smallHeading2} bigTitle={bigHeading2}/>
             <Slider/>
+            <Heading smallTitle={smallHeading3} bigTitle={bigHeading3}/>
             <ImageCardContainer/>
             <Footer/>
         </>
-
     );
 }
 

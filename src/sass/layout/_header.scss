@@ -23,12 +23,18 @@
   }
 
   .responsive-heading:nth-child(1) .card {
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
 
   .responsive-heading:nth-child(1) .card .card-header h1 {
     font-size: 40px !important;
     font-weight: bolder;
+  }
+}
+
+@media only screen and(min-width: 1260px){
+  .header__img{
+    text-align: center !important;
   }
 }
 

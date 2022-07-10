@@ -1,15 +1,13 @@
 .header {
   background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
   border-radius: 5px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .header__inside {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -32,11 +30,16 @@
     text-align: center !important;
   }
   .responsive-heading:nth-child(1) .card {
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
   .responsive-heading:nth-child(1) .card .card-header h1 {
     font-size: 40px !important;
     font-weight: bolder;
+  }
+}
+@media only screen and (min-width: 1260px) {
+  .header__img {
+    text-align: center !important;
   }
 }
 @media only screen and (max-width: 466px) {
@@ -84,46 +87,46 @@
     justify-content: center;
   }
 }
-.card {
+.cardtext {
   margin: 50px;
   border: 1px solid #c1c1c1 !important;
   border-radius: 15px;
   overflow: hidden;
 }
-.card--blue .card__top {
+.cardtext--blue .cardtext__top {
   background: #29A9E1;
 }
-.card--blue .card__badge {
+.cardtext--blue .cardtext__badge {
   color: rgba(0, 81, 255, 0.65);
   background: rgba(0, 81, 255, 0.12);
 }
-.card--yellow .card__top {
+.cardtext--yellow .cardtext__top {
   background: #FFD964;
 }
-.card--yellow .card__badge {
+.cardtext--yellow .cardtext__badge {
   color: black;
   background: rgba(0, 0, 0, 0.18);
 }
-.card__top {
+.cardtext__top {
   height: 25px;
   margin-bottom: 30px;
 }
-.card__body {
+.cardtext__body {
   padding: 25px;
 }
-.card__badge:link, .card__badgevisted {
+.cardtext__badge:link, .cardtext__badgevisted {
   text-decoration: none;
   padding: 5px 15px;
   border-radius: 25px;
   font-size: 12px;
 }
-.card__badge span {
+.cardtext__badge span {
   font-size: 16px;
 }
-.card__title {
+.cardtext__title {
   font-size: 18px;
 }
-.card__text {
+.cardtext__text {
   color: #777;
 }
 

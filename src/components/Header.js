@@ -7,7 +7,7 @@ class Header extends React.Component {
         <div className={"header__inside"}>
           <div className={"header__content row responsive-heading"}>
             <div className="col-lg-7 col-12">
-              <div className="card border-0" style={{margin : '40px 50px'}}>
+              <div className="card border-0" style={{margin : '40px 50px',backgroundColor:"transparent"}}>
                 <div className="card-header bg-transparent border-bottom-0">
                   <h1 className={"header__title"} style={{fontSize : '60px'}}>{this.props.title}</h1>
                 </div>
