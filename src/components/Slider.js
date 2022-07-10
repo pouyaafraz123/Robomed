@@ -21,7 +21,7 @@ class Slider extends React.Component {
                     mouseTracking
                     items={items}
                     autoPlay
-                    autoPlayInterval={1000}
+                    autoPlayInterval={3000}
                     autoPlayStrategy={"all"}
                     animationDuration={1000}
                     disableButtonsControls
