@@ -15,7 +15,7 @@ class Header extends React.Component {
                         <button className={"btn btn--blue header__btn"}>Login to System</button>
                     </div>
                     <div className={"header__img"}>
-                        <img src={""} alt={"logo"}/>
+                        <img src={require("../img/Main Picture.png")} alt={"logo"}/>
                     </div>
                     <div className={"header__detail"}>
                         {this.renderDetail(this.props.details)}

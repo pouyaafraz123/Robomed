@@ -1,0 +1,53 @@
+.card {
+  margin: 50px;
+  border: 1px solid #c1c1c1 !important;
+  border-radius: 15px;
+  overflow: hidden;
+
+  &--blue{
+    .card__top{
+      background: #29A9E1;
+    }
+    .card__badge{
+      color: rgba(0, 81, 255, 0.65);
+      background: rgba(0, 81, 255, 0.12);
+    }
+  }
+  &--yellow{
+    .card__top{
+      background: #FFD964;
+    }
+    .card__badge{
+      color: black;
+      background: rgba(0, 0, 0, 0.18);
+    }
+  }
+  &__top {
+    height: 25px;
+    margin-bottom: 30px;
+  }
+
+  &__body{
+    padding: 25px;
+  }
+
+  &__badge{
+    &:link,&visted{
+      text-decoration: none;
+      padding: 5px 15px;
+      border-radius: 25px;
+      font-size: 12px;
+    }
+    span{
+      font-size: 16px;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+  }
+
+  &__text {
+    color: #777;
+  }
+}

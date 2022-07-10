@@ -1,9 +1,3 @@
-.customActive {
-  background-color: #e9f5fb !important;
-  color: #29a9e1 !important;
-  border-radius: 8px !important;
-  padding: 8px 20px !important;
-}
 .header {
   background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
   border-radius: 5px;
@@ -21,6 +15,13 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.customActive {
+  background-color: #e9f5fb !important;
+  color: #29a9e1 !important;
+  border-radius: 8px !important;
+  padding: 8px 20px !important;
+}
+
 @media only screen and (max-width: 992px) {
   .navbar-nav {
     text-align: center !important;
@@ -36,4 +37,48 @@
     width: 100%;
     justify-content: center;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+.card {
+  margin: 50px;
+  border: 1px solid #c1c1c1 !important;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card--blue .card__top {
+  background: #29A9E1;
+}
+.card--blue .card__badge {
+  color: rgba(0, 81, 255, 0.65);
+  background: rgba(0, 81, 255, 0.12);
+}
+.card--yellow .card__top {
+  background: #FFD964;
+}
+.card--yellow .card__badge {
+  color: black;
+  background: rgba(0, 0, 0, 0.18);
+}
+.card__top {
+  height: 25px;
+  margin-bottom: 30px;
+}
+.card__body {
+  padding: 25px;
+}
+.card__badge:link, .card__badgevisted {
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.card__badge span {
+  font-size: 16px;
+}
+.card__title {
+  font-size: 18px;
+}
+.card__text {
+  color: #777;
+}
+
+/*# sourceMappingURL=main.css.map */

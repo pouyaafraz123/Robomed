@@ -4,6 +4,7 @@ import Header from "./Header";
 import "../sass/main.css";
 import Heading from "./Heading";
 import "../sass/main.css";
+import TextCardContainer from "./TextCardContainer";
 
 const App = () => {
     const headerTitle = "Your Health Is Our top Priority";
@@ -28,21 +29,20 @@ const App = () => {
     const bigHeading1="Our Last Healthcare ";
 
     return (
-        <div>
-            <TopBar/>
+        <>
+            <div className="container-fluid">
+                <div className="mt-3">
+                    <TopBar />
+                </div>
+            </div>
+            <div className={"container"}>
             <Header title={headerTitle} text={headerText} details={headerDetails}/>
+            </div>
             <Heading smallTitle={smallHeading1} bigTitle={bigHeading1}/>
-        </div>
+            <TextCardContainer/>
+        </>
 
     );
 }
-  return (
-    <div className="container-fluid">
-      <div className="mt-3">
-        <TopBar />
-      </div>
-    </div>
-  );
-};
 
 export default App;
