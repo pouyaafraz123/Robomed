@@ -3,3 +3,57 @@
 
 
 }
+
+.primary-btn {
+  background-color: #29a9e1 !important;
+  color: white !important;
+  padding: 7px 30px !important;
+  border-radius: 9px !important;
+  font-size: 22px;
+}
+
+@media only screen and(max-width: 991px) {
+  .responsive-heading {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .responsive-heading:first-child {
+    text-align: center !important;
+  }
+
+  .responsive-heading:nth-child(1) .card {
+    margin-top: 0px !important;
+  }
+
+  .responsive-heading:nth-child(1) .card .card-header h1 {
+    font-size: 40px !important;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and(max-width: 466px) {
+  .responsive-heading:nth-child(1) .card .card-header h1 {
+    font-size: 20px !important;
+    font-weight: bolder;
+  }
+
+  .responsive-heading:nth-child(1) .card .card-body p {
+    font-size: small !important;
+    word-spacing: 2px !important;
+  }
+}
+
+@media only screen and(max-width: 482px) {
+  .primary-btn {
+    padding: 5px 10px !important;
+    font-size: 16px;
+  }
+}
+
+@media only screen and(max-width: 419px) {
+  .primary-btn {
+    padding: 5px 5px !important;
+    font-size: 12px;
+  }
+}

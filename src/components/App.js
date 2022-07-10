@@ -31,6 +31,21 @@ const App = () => {
     const smallHeading1="Healthcare Facilities";
     const bigHeading1="Our Last Healthcare ";
 
+  return (
+    <>
+      <div className="container-fluid">
+        <div className="mt-3">
+          <TopBar />
+        </div>
+      </div>
+      <div className={"container-fluid"}>
+        <Header title={headerTitle} text={headerText} details={headerDetails} />
+      </div>
+      <Heading smallTitle={smallHeading1} bigTitle={bigHeading1} />
+      <TextCardContainer />
+    </>
+  );
+};
     return (
         <>
             <div className="container-fluid">
