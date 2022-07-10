@@ -2,6 +2,7 @@ import React from "react";
 import TopBar from "./TopBar";
 import Header from "./Header";
 import "../sass/main.css";
+import Heading from "./Heading";
 const App = () => {
     const headerTitle = "Your Health Is Our top Priority";
     const headerText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda debitis earum est " +
@@ -21,11 +22,14 @@ const App = () => {
         }
     ];
 
+    const smallHeading1="Healthcare Facilities";
+    const bigHeading1="Our Last Healthcare ";
 
     return (
         <div>
             <TopBar/>
             <Header title={headerTitle} text={headerText} details={headerDetails}/>
+            <Heading smallTitle={smallHeading1} bigTitle={bigHeading1}/>
         </div>
 
     );
