@@ -1,7 +1,10 @@
 import React from "react";
+import TopBar from "./TopBar";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+      <TopBar/>
+  );
 }
 
 export default App;
