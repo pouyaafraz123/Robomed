@@ -1,14 +1,18 @@
 import React from "react";
 
-class Logo extends React.Component{
-    render() {
-        return(
-        <div className={"logo"}>
-            <img src="" alt="logo" className={"logo__img"}/>
-            <h1 className={"logo__title"}>RoboMed</h1>
-        </div>
-        );
-    }
+class Logo extends React.Component {
+  render() {
+    return (
+      <div className={"logo"}>
+        <img
+          src={require(`../img/Logo.png`)}
+          alt="logo"
+          className={"logo__img"}
+          style={{ width: "100px" }}
+        />
+      </div>
+    );
+  }
 }
 
 export default Logo;

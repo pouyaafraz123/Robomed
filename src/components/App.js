@@ -3,6 +3,8 @@ import TopBar from "./TopBar";
 import Header from "./Header";
 import "../sass/main.css";
 import Heading from "./Heading";
+import "../sass/main.css";
+
 const App = () => {
     const headerTitle = "Your Health Is Our top Priority";
     const headerText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda debitis earum est " +
@@ -34,5 +36,13 @@ const App = () => {
 
     );
 }
+  return (
+    <div className="container-fluid">
+      <div className="mt-3">
+        <TopBar />
+      </div>
+    </div>
+  );
+};
 
 export default App;

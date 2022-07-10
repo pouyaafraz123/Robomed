@@ -1,3 +1,9 @@
+.customActive {
+  background-color: #e9f5fb !important;
+  color: #29a9e1 !important;
+  border-radius: 8px !important;
+  padding: 8px 20px !important;
+}
 .header {
   background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
   border-radius: 5px;
@@ -15,4 +21,19 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/*# sourceMappingURL=main.css.map */
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 466px) {
+  .navbar-nav {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .responsive-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=main.css.map */
