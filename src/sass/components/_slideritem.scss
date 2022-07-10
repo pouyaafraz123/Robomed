@@ -1,0 +1,24 @@
+.slideritem img {
+    width: 240px;
+}
+
+.slideritem h2,
+p {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+    .slideritem {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .slideritem p {
+        margin-top: 30px !important;
+    }
+
+    .slideritem h2 {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {}

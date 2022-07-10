@@ -7,8 +7,7 @@ class TextCard extends React.Component {
             <div className={`cardtext cardtext--${this.props.theme}`}>
                 <div className={"cardtext__top"}></div>
                 <div className={"cardtext__body"}>
-                    <h6 className={"cardtext__title"}><strong>{this.props.title} </strong><i
-                        className={`flag flag-${this.props.flag}`}></i></h6>
+                    <h6 className={"cardtext__title"}><strong>{this.props.title}</strong>&#127467;&#127479;</h6>
                     <p className={"cardtext__text"}>{this.props.text}</p>
                     <a href="src/components/TextCard#" className={"cardtext__badge"}>
                         <strong>

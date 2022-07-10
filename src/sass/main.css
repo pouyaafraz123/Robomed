@@ -88,7 +88,6 @@
   }
 }
 .cardtext {
-  margin: 50px;
   border: 1px solid #c1c1c1 !important;
   border-radius: 15px;
   overflow: hidden;
@@ -136,4 +135,24 @@
 transform: translate(-40%,-30%px);*/
 }
 
-/*# sourceMappingURL=main.css.map */
+.slideritem img {
+  width: 240px;
+}
+
+.slideritem h2,
+p {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .slideritem {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .slideritem p {
+    margin-top: 30px !important;
+  }
+  .slideritem h2 {
+    text-align: center !important;
+  }
+}/*# sourceMappingURL=main.css.map */
