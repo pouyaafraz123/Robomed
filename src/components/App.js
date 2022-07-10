@@ -29,7 +29,7 @@ const App = () => {
     ];
 
     const smallHeading1 = "Healthcare Facilities";
-    const bigHeading1 = "Our Last Healthcare";
+    const bigHeading1 = "Our Last Healthcare Facilities";
     const smallHeading2 = "testimonial";
     const bigHeading2 = "Patients Says About Us";
     const smallHeading3 = "Team Doctor";
