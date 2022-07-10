@@ -59,14 +59,14 @@ class Slider extends React.Component {
     return (
       <div className="container">
         <AliceCarousel
-          mouseTracking
-          items={items}
-          autoPlay
-          autoPlayInterval={1000}
-          autoPlayStrategy={"all"}
-          animationDuration={1000}
-          disableButtonsControls
-          infinite
+            mouseTracking
+            items={items}
+            autoPlay
+            autoPlayInterval={3000}
+            autoPlayStrategy={"all"}
+            animationDuration={1000}
+            disableButtonsControls
+            infinite
         />
       </div>
     );
