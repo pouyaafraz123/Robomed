@@ -5,6 +5,9 @@ import "../sass/main.css";
 import Heading from "./Heading";
 import "../sass/main.css";
 import TextCardContainer from "./TextCardContainer";
+import Slider from "./Slider";
+import ImageCardContainer from "./ImageCardContainer";
+import Footer from "./Footer";
 
 const App = () => {
     const headerTitle = "Your Health Is Our top Priority";
@@ -40,6 +43,9 @@ const App = () => {
             </div>
             <Heading smallTitle={smallHeading1} bigTitle={bigHeading1}/>
             <TextCardContainer/>
+            <Slider/>
+            <ImageCardContainer/>
+            <Footer/>
         </>
 
     );
