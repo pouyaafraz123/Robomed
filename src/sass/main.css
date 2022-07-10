@@ -1,3 +1,23 @@
+.customActive {
+  background-color: #e9f5fb !important;
+  color: #29a9e1 !important;
+  border-radius: 8px !important;
+  padding: 8px 20px !important;
+}
 
-
-/*# sourceMappingURL=main.css.map */
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 466px) {
+  .navbar-nav {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .responsive-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=main.css.map */
