@@ -3,7 +3,6 @@ import TopBar from "./TopBar";
 import Header from "./Header";
 import "../sass/main.css";
 import Heading from "./Heading";
-import "../sass/main.css";
 import TextCardContainer from "./TextCardContainer";
 import Slider from "./Slider";
 import ImageCardContainer from "./ImageCardContainer";
@@ -44,14 +43,14 @@ const App = () => {
             </div>
             <div className={"container-fluid"}>
                 <Header title={headerTitle} text={headerText} details={headerDetails}/>
+                <Heading smallTitle={smallHeading1} bigTitle={bigHeading1}/>
+                <TextCardContainer/>
+                <Heading smallTitle={smallHeading2} bigTitle={bigHeading2}/>
+                <Slider/>
+                <Heading smallTitle={smallHeading3} bigTitle={bigHeading3}/>
+                <ImageCardContainer/>
+                <Footer/>
             </div>
-            <Heading smallTitle={smallHeading1} bigTitle={bigHeading1}/>
-            <TextCardContainer/>
-            <Heading smallTitle={smallHeading2} bigTitle={bigHeading2}/>
-            <Slider/>
-            <Heading smallTitle={smallHeading3} bigTitle={bigHeading3}/>
-            <ImageCardContainer/>
-            <Footer/>
         </>
     );
 }

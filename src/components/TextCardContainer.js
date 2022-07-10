@@ -4,7 +4,8 @@ import TextCard from "./TextCard";
 class TextCardContainer extends React.Component {
   render() {
     return (
-      <div className="text-card-container row container-fluid d-flex justify-content-center align-items-center">
+      <div className="text-card-container row container-fluid d-flex justify-content-between align-items-center"
+           style={{margin: "auto 0"}}>
         {this.renderCards()}
       </div>
     );
@@ -25,7 +26,7 @@ class TextCardContainer extends React.Component {
         title: "Mankind Medicare",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
         flag: "france",
-        badge: "Hospital",
+        badge: "Clinic",
         key: 2,
       },
       {
@@ -41,7 +42,7 @@ class TextCardContainer extends React.Component {
         title: "Mankind Medicare",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
         flag: "france",
-        badge: "Hospital",
+        badge: "Clinic",
         key: 4,
       },
     ];
@@ -53,8 +54,6 @@ class TextCardContainer extends React.Component {
         text,
         flag,
         badge,
-        badgeBackColor,
-        badgeColor,
         key,
       } = item;
       return (

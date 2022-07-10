@@ -7,9 +7,12 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "layout/header";
-@import "pages/home";
 @import "components/menu";
 @import "components/card";
 @import "components/slider";
-@import "components/slideritem"
+@import "components/slideritem";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/home";
