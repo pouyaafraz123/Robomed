@@ -16,7 +16,7 @@ class ImageCardContainer extends React.Component {
     return items.map((item) => {
       return (
         <ImageCard
-            img={`img${item} (Custom) (1)`}
+            img={`img${item}`}
             name={"Dr. Johnaton Leo"}
             text={"Orthopedis"}
             key={item}

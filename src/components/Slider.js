@@ -58,7 +58,7 @@ class Slider extends React.Component {
 
         return (
             <div className="container slider p-5">
-                <div className={"slider__inside"} style={{background: "transparent"}}>
+                <div className={"slider__inside"}>
                     <AliceCarousel
                         mouseTracking
                         items={items}
