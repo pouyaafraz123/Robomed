@@ -57,14 +57,14 @@ class TextCardContainer extends React.Component {
         key,
       } = item;
       return (
-        <div className="col-lg-3 col-12 mb-3">
+        <div className="col-lg-3 col-12 mb-3" key={key}>
           <TextCard
-            theme={theme}
-            title={title}
-            text={text}
-            flag={flag}
-            badge={badge}
-            key={key}
+              theme={theme}
+              title={title}
+              text={text}
+              flag={flag}
+              badge={badge}
+
           />
         </div>
       );

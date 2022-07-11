@@ -38,9 +38,10 @@ class Header extends React.Component {
   renderDetail(details) {
     return details.map((detail) => {
       return (
-        <div className={"header__detail col-lg-4 col-12 pb-5 mb-5 d-flex flex-column justify-content-between align-items-center"}>
+        <div key={detail.num}
+             className={"header__detail col-lg-4 col-12 pb-5 mb-5 d-flex flex-column justify-content-between align-items-center"}>
           <div className={"header__detail-number"}>
-            <strong style={{fontSize : '50px' , fontWeight: '500'}}>+{detail.num}</strong>
+            <strong style={{fontSize: '50px', fontWeight: '500'}}>+{detail.num}</strong>
           </div>
           <div className={"header__detail-text"}>
             <span className="text-muted"><strong>{detail.text}</strong></span>
