@@ -1,18 +1,15 @@
-.doctors .card-header {
-  background-color: #eaf6fc !important;
-  border-radius: 5px !important;
-}
-
-.image-card {
-
-}
-
-.doctors .card-header img {
-  transform: translateY(12px);
-}
 
 .doctors {
   border-radius: 10px !important;
+
+  .card-header img {
+	transform: translateY(12px);
+  }
+
+  .card-header {
+	background-color: #eaf6fc !important;
+	border-radius: 5px !important;
+  }
 }
 
 

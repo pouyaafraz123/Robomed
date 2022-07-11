@@ -2,6 +2,13 @@
   @include morphism;
 }
 
+@media only screen and (max-width: 992px) {
+  .my-header {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
 .social-Media img {
   cursor: pointer !important;
 }

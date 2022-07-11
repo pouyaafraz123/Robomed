@@ -99,24 +99,45 @@ p {
     flex-direction: column !important;
     align-items: center !important;
   }
+
   .slideritem p {
     margin-top: 30px !important;
   }
+
   .slideritem h2 {
     text-align: center !important;
   }
 }
-.doctors .card-header {
-  background-color: #eaf6fc !important;
-  border-radius: 5px !important;
+
+.doctors {
+  border-radius: 10px !important;
 }
 
 .doctors .card-header img {
   transform: translateY(12px);
 }
 
-.doctors {
-  border-radius: 10px !important;
+.doctors .card-header {
+  background-color: #eaf6fc !important;
+  border-radius: 5px !important;
+}
+
+@media only screen and (min-width: 1500px) {
+  .image-container {
+    padding-left: 6%;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 967px) {
+  .image-container {
+    padding-left: 8%;
+  }
+}
+
+@media only screen and (max-width: 967px) {
+  .image-container {
+    padding-left: 3%;
+  }
 }
 
 .Newsletter {
@@ -132,12 +153,10 @@ p {
   outline: 0;
   border-radius: 0 10px 10px 0;
 }
-
 .Newsletter input:focus {
   border: 0 !important;
   box-shadow: none !important;
 }
-
 .Newsletter button {
   margin-left: -125px !important;
   height: 50px !important;
@@ -146,32 +165,15 @@ p {
   border-radius: 6px !important;
   border-color: transparent !important;
 }
-
 .Newsletter button:hover {
   border-color: transparent !important;
 }
-
 .Newsletter .input-group-text {
   padding-right: 0px !important;
   border: 0;
   border-radius: 10px 0 0 10px;
 }
 
-@media only screen and (min-width: 1500px) {
-  .image-container {
-    padding-left: 6%;
-  }
-}
-@media only screen and (max-width: 1500px) and (min-width: 967px) {
-  .image-container {
-    padding-left: 8%;
-  }
-}
-@media only screen and (max-width: 967px) {
-  .image-container {
-    padding-left: 3%;
-  }
-}
 .header {
   background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
   border-radius: 5px;
@@ -259,6 +261,12 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+@media only screen and (max-width: 992px) {
+  .my-header {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
 .social-Media img {
   cursor: pointer !important;
 }
@@ -301,7 +309,6 @@ hr {
   .my-footer p {
     font-size: 16px;
   }
-}/*# sourceMappingURL=main.css.map */
 }
 
 /*# sourceMappingURL=main.css.map */

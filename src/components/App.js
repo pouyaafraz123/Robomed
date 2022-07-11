@@ -49,9 +49,11 @@ const App = () => {
                 <Heading smallTitle={smallHeading2} bigTitle={bigHeading2}/>
                 <Slider/>
                 <Heading smallTitle={smallHeading3} bigTitle={bigHeading3}/>
-          <ImageCardContainer />
-          <Newsletter />
-                <Footer/>
+                <ImageCardContainer/>
+                <Newsletter/>
+                <div className={"px-lg-4"}>
+                    <Footer/>
+                </div>
             </div>
         </>
     );

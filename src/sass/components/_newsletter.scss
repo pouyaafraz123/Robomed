@@ -1,38 +1,37 @@
 .Newsletter {
     margin-bottom: 100px;
-}
 
-.Newsletter input {
-    padding: 30px 20px;
-    width: 100%;
-    background-color: #f8f8f8 !important;
-    padding-left: 10px !important;
-    border: 0;
-    outline: 0;
-    border-radius: 0 10px 10px 0;
-}
+    input {
+        padding: 30px 20px;
+        width: 100%;
+        background-color: #f8f8f8 !important;
+        padding-left: 10px !important;
+        border: 0;
+        outline: 0;
+        border-radius: 0 10px 10px 0;
 
-.Newsletter input:focus {
-    border: 0 !important;
-    box-shadow: none !important;
-}
+        &:focus {
+            border: 0 !important;
+            box-shadow: none !important;
+        }
+    }
 
-.Newsletter button {
-    margin-left: -125px !important;
-    height: 50px !important;
-    z-index: 1000 !important;
-    background-color: #29a9e1 !important;
-    border-radius: 6px !important;
-    border-color: transparent !important;
-}
+    button {
+        margin-left: -125px !important;
+        height: 50px !important;
+        z-index: 1000 !important;
+        background-color: #29a9e1 !important;
+        border-radius: 6px !important;
+        border-color: transparent !important;
 
-.Newsletter button:hover {
-    border-color: transparent !important;
-}
+        &:hover {
+            border-color: transparent !important;
+        }
+    }
 
-
-.Newsletter .input-group-text {
-    padding-right: 0px !important;
-    border: 0;
-    border-radius: 10px 0 0 10px;
+    .input-group-text {
+        padding-right: 0px !important;
+        border: 0;
+        border-radius: 10px 0 0 10px;
+    }
 }
