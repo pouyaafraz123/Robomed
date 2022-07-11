@@ -99,24 +99,19 @@ p {
     flex-direction: column !important;
     align-items: center !important;
   }
-
   .slideritem p {
     margin-top: 30px !important;
   }
-
   .slideritem h2 {
     text-align: center !important;
   }
 }
-
 .doctors {
   border-radius: 10px !important;
 }
-
 .doctors .card-header img {
   transform: translateY(12px);
 }
-
 .doctors .card-header {
   background-color: #eaf6fc !important;
   border-radius: 5px !important;
@@ -127,23 +122,19 @@ p {
     padding-left: 6%;
   }
 }
-
 @media only screen and (max-width: 1500px) and (min-width: 967px) {
   .image-container {
     padding-left: 8%;
   }
 }
-
 @media only screen and (max-width: 967px) {
   .image-container {
     padding-left: 3%;
   }
 }
-
 .Newsletter {
   margin-bottom: 100px;
 }
-
 .Newsletter input {
   padding: 30px 20px;
   width: 100%;
@@ -309,6 +300,4 @@ hr {
   .my-footer p {
     font-size: 16px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
