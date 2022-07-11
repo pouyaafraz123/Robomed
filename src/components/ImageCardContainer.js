@@ -4,9 +4,9 @@ import ImageCard from "./ImageCard";
 class ImageCardContainer extends React.Component {
   render() {
     return (
-      <div className="container">
-        <div className="row">{this.renderCardItems()}</div>
-      </div>
+        <div className="container image-container">
+          <div className="row mx-auto">{this.renderCardItems()}</div>
+        </div>
     );
   }
 
@@ -16,10 +16,10 @@ class ImageCardContainer extends React.Component {
     return items.map((item) => {
       return (
         <ImageCard
-          img={`img${item}`}
-          name={"Dr. Johnaton Leo"}
-          text={"Orthopedis"}
-          key={item}
+            img={`img${item} (Custom) (1)`}
+            name={"Dr. Johnaton Leo"}
+            text={"Orthopedis"}
+            key={item}
         />
       );
     });

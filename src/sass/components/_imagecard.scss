@@ -1,13 +1,35 @@
-.doctors .card-header { 
-    background-color: #eaf6fc !important;
-    border-radius: 5px !important;
+.doctors .card-header {
+  background-color: #eaf6fc !important;
+  border-radius: 5px !important;
+}
+
+.image-card {
+
 }
 
 .doctors .card-header img {
-    transform: translateY(12px);
-    
+  transform: translateY(12px);
 }
 
 .doctors {
-    border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+
+
+@media only screen and (min-width: 1500px) {
+  .image-container {
+	padding-left: 6%;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 967px) {
+  .image-container {
+	padding-left: 8%;
+  }
+}
+
+@media only screen and (max-width: 967px) {
+  .image-container {
+	padding-left: 3%;
+  }
 }

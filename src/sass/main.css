@@ -119,6 +119,21 @@ p {
   border-radius: 10px !important;
 }
 
+@media only screen and (min-width: 1500px) {
+  .image-container {
+    padding-left: 6%;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 967px) {
+  .image-container {
+    padding-left: 8%;
+  }
+}
+@media only screen and (max-width: 967px) {
+  .image-container {
+    padding-left: 3%;
+  }
+}
 .header {
   background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
   border-radius: 5px;
@@ -198,4 +213,6 @@ p {
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

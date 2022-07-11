@@ -24,7 +24,7 @@ class ImageCard extends React.Component {
             </h6>
           </div>
             </div>
-        <div className="col-lg-1 col-12"></div>
+        {this.props.key % 3 !== 2 ? <div className="col-lg-1 col-12 mx-auto"></div> : ""}
       </>
     );
   }
