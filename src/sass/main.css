@@ -106,6 +106,19 @@ p {
     text-align: center !important;
   }
 }
+.doctors .card-header {
+  background-color: #eaf6fc !important;
+  border-radius: 5px !important;
+}
+
+.doctors .card-header img {
+  transform: translateY(12px);
+}
+
+.doctors {
+  border-radius: 10px !important;
+}
+
 .header {
   background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
   border-radius: 5px;
@@ -185,6 +198,4 @@ p {
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

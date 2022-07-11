@@ -7,6 +7,7 @@ import TextCardContainer from "./TextCardContainer";
 import Slider from "./Slider";
 import ImageCardContainer from "./ImageCardContainer";
 import Footer from "./Footer";
+import Newsletter from "./Newsletter";
 
 const App = () => {
     const headerTitle = "Your Health Is Our top Priority";
@@ -48,7 +49,8 @@ const App = () => {
                 <Heading smallTitle={smallHeading2} bigTitle={bigHeading2}/>
                 <Slider/>
                 <Heading smallTitle={smallHeading3} bigTitle={bigHeading3}/>
-                <ImageCardContainer/>
+          <ImageCardContainer />
+          <Newsletter />
                 <Footer/>
             </div>
         </>
