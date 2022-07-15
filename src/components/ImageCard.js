@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 
 class ImageCard extends React.Component {
     render() {
@@ -6,13 +7,13 @@ class ImageCard extends React.Component {
             <>
                 <div
                     className="image-card col-lg-3 col-md-6 col-12 mb-3 p-3 mx-3 shadow shadow-lg border-0 doctors mx-auto">
-                    <div className="card-header border-bottom-0">
+                    <CardHeader className="card-header border-bottom-0">
                         <img
                             className="image-card__image img-fluid"
                             src={require(`../img/${this.props.img}.png`)}
                             alt={"doctor"}
                         />
-                    </div>
+                    </CardHeader>
                     <div className="card-body text-center">
                         <h5 className={"image-card__primary-text pt-3"}>
                             <strong>{this.props.name}</strong>
@@ -30,5 +31,9 @@ class ImageCard extends React.Component {
         );
     }
 }
+
+const CardHeader = styled.div`
+  background: var(--card-back);
+`;
 
 export default ImageCard;

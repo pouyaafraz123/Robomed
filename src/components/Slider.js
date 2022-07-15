@@ -2,6 +2,7 @@ import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import 'react-alice-carousel/lib/alice-carousel.css';
 import SliderItem from "./SliderItem";
+import Back from "./Back";
 
 class Slider extends React.Component {
     render() {
@@ -57,20 +58,20 @@ class Slider extends React.Component {
         ];
 
         return (
-            <div className="container slider p-5">
-                <div className={"slider__inside"}>
-                    <AliceCarousel
-                        mouseTracking
-                        items={items}
-                        autoPlay
-                        autoPlayInterval={3000}
-                        autoPlayStrategy={"all"}
-                        animationDuration={1000}
-                        disableButtonsControls
-                        infinite
-                    />
-                </div>
-            </div>
+            <Back className="container slider p-5">
+
+                <AliceCarousel
+                    mouseTracking
+                    items={items}
+                    autoPlay
+                    autoPlayInterval={3000}
+                    autoPlayStrategy={"all"}
+                    animationDuration={1000}
+                    disableButtonsControls
+                    infinite
+                />
+
+            </Back>
         );
     }
 }

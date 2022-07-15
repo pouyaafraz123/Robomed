@@ -1,10 +1,13 @@
 import React from "react";
+import Back from "./Back";
+import Inside from "./Inside";
+import styled from "styled-components";
 
 class Footer extends React.Component {
   render() {
     return (
-        <div className={"my-footer container-fluid mb-5 mx-auto"} style={{margin: "10px 45px"}}>
-          <div className={"my-footer-inside mx-auto"}>
+        <Back className={"my-footer container-fluid mx-auto"}>
+          <Inside className={"my-footer-inside mx-auto"}>
             <div className="row" style={{padding: 0}}>
               <div className="col-lg-6 col-12">
                 <div
@@ -41,24 +44,28 @@ class Footer extends React.Component {
                   <div className="pl-3">(330) 718 - 8699</div>
                 </div>
                 <div className="d-flex flex-row" style={{marginTop: '45px' , marginBottom: '45px'}}>
-                  <img style={{width: '25px'}} className="img-fluid" src={require("../img/icon6.png")} alt={"icon"} />
+                  <img style={{width: '25px'}} className="img-fluid" src={require("../img/icon6.png")} alt={"icon"}/>
                   <div className="pl-3" style={{textDecoration: 'underline'}}>HospitalAdmin@gmail.com</div>
                 </div>
                 <div className="d-flex flex-row">
-                  <img style={{height: '35px'}} className="img-fluid" src={require("../img/icon7.png")} alt={"icon"} />
+                  <img style={{height: '35px'}} className="img-fluid" src={require("../img/icon7.png")} alt={"icon"}/>
                   <div className="pl-3">Keas 69 Str. 15234, Chalandri Athens, Greece</div>
                 </div>
               </div>
             </div>
-          </div>
-          <hr />
-          <div className="pb-5">
-            ©2022 Global Access Telehealth. All Rights Reserved.Privacy Policy
-          </div>
-        </div>
-      </div>
+            </div>
+            <Line/>
+            <div className="pb-5 px-5">
+              ©2022 Global Access Telehealth. All Rights Reserved.Privacy Policy
+            </div>
+          </Inside>
+        </Back>
     );
   }
 }
+
+const Line = styled.hr`
+  border-color: var(--line);
+`;
 
 export default Footer;

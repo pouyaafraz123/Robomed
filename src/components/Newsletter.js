@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 
 class Newsletter extends React.Component {
   render() {
@@ -13,21 +14,21 @@ class Newsletter extends React.Component {
           <div className="col-lg-5 col-12 d-flex flex-row justify-content-start align-items-center">
             <div className="input-group">
               <div className="input-group-prepend border-right-0">
-                <div className="input-group-text border-right-0" style={{backgroundColor: '#f8f8f8'}}>
+                <InputGroup className="input-group-text border-right-0">
                   <img
-                    src={require("../img/email.png")}
-                    className=""
-                    style={{ width: "25px" }}
+                      src={require("../img/email.png")}
+                      className=""
+                      style={{width: "25px"}}
                   />
-                </div>
+                </InputGroup>
               </div>
-              <input
-                className="form-control border-left-0"
-                type={"text"}
-                placeholder={"Email Address"}
+              <Input
+                  className="form-control border-left-0"
+                  type={"text"}
+                  placeholder={"Email Address"}
               />
             </div>
-            <button className="btn btn-info px-4">Subscribe</button>
+            <BlueButton className="btn btn-info px-4">Subscribe</BlueButton>
           </div>
         </div>
       </div>
@@ -35,4 +36,24 @@ class Newsletter extends React.Component {
   }
 }
 
+const BlueButton = styled.button`
+  color: var(--blue-button-color);
+`;
+
+const Input = styled.input`
+  background: var(--newsletter);
+  color: var(--newsletter-color);
+  &:focus{
+    background: var(--newsletter);
+    color: var(--newsletter-color);
+  }
+  &::placeholder{
+    color: var(--newsletter-color);
+  }
+`;
+
+const InputGroup = styled.div`
+  background: var(--newsletter);
+  color: var(--newsletter-color);
+`;
 export default Newsletter;

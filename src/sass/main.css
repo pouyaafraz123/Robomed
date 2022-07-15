@@ -1,6 +1,6 @@
 .customActive {
-  background-color: #e9f5fb !important;
-  color: #29a9e1 !important;
+  background-color: rgba(0, 158, 240, 0.21) !important;
+  color: #00b0ff !important;
   border-radius: 8px !important;
   padding: 8px 20px !important;
 }
@@ -29,16 +29,8 @@
 .cardtext--blue .cardtext__top {
   background: #29A9E1;
 }
-.cardtext--blue .cardtext__badge {
-  color: rgba(0, 81, 255, 0.65);
-  background: rgba(0, 81, 255, 0.12);
-}
 .cardtext--yellow .cardtext__top {
   background: #FFD964;
-}
-.cardtext--yellow .cardtext__badge {
-  color: black;
-  background: rgba(0, 0, 0, 0.18);
 }
 .cardtext__top {
   height: 25px;
@@ -59,9 +51,6 @@
 .cardtext__title {
   font-size: 18px;
 }
-.cardtext__text {
-  color: #777;
-}
 
 .alice-carousel__dots {
   width: 100%;
@@ -70,19 +59,8 @@
   transform: translate(-40%,-30%px);*/
 }
 
-.slider {
-  background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
-  border-radius: 5px;
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-.slider__inside {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+.alice-carousel {
+  background: transparent;
 }
 
 .slideritem img {
@@ -113,7 +91,6 @@ p {
   transform: translateY(12px);
 }
 .doctors .card-header {
-  background-color: #eaf6fc !important;
   border-radius: 5px !important;
 }
 
@@ -138,7 +115,6 @@ p {
 .Newsletter input {
   padding: 30px 20px;
   width: 100%;
-  background-color: #f8f8f8 !important;
   padding-left: 10px !important;
   border: 0;
   outline: 0;
@@ -166,7 +142,6 @@ p {
 }
 
 .header {
-  background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
   border-radius: 5px;
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
@@ -238,18 +213,7 @@ p {
   }
 }
 .my-footer {
-  background-image: linear-gradient(to right, rgba(16, 242, 197, 0.06), rgba(225, 188, 22, 0.2) 80%, rgba(16, 242, 231, 0.1));
-  border-radius: 5px;
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-.my-footer__inside {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0 !important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -264,7 +228,6 @@ p {
 
 hr {
   border-width: 2px;
-  border-color: white;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -300,4 +263,6 @@ hr {
   .my-footer p {
     font-size: 16px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
