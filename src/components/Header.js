@@ -9,7 +9,7 @@ class Header extends React.Component {
     render() {
         return (
             <ThemeContext.Consumer>
-                {({theme, toggleTheme}) => (
+                {({theme}) => (
                     <Back className={"header my-header"} style={{margin: "10px 45px"}}>
                         <Inside className={"header__inside"}>
                             <div className={"header__content row responsive-heading"}>
@@ -25,8 +25,7 @@ class Header extends React.Component {
                                                style={{wordSpacing: '7px'}}>{this.props.text}</p>
                                         </div>
                                         <div className="card-footer bg-transparent border-top-0">
-                                            <button className={"header__btn btn primary-btn"}
-                                                    onClick={() => toggleTheme()}>
+                                            <button className={"header__btn btn primary-btn"}>
                                                 Login to System
                                             </button>
                                         </div>
