@@ -36,7 +36,14 @@ class Header extends React.Component {
                                     <div className={"header__img"}>
                                         <img className="img-fluid" src={require(`../img/Main Picture${theme.img}.png`)}
                                              alt={"logo"}
-                                             style={{width: "400px", padding: `${theme.img === "" ? "0px" : "45px"}`}}/>
+                                             style={{
+                                                 width: "500px", margin: "auto",
+                                                 paddingRight: `${theme.img === "" ? "0px" : "20px"}`,
+                                                 paddingLeft: `${theme.img === "" ? "0px" : "55px"}`,
+                                                 paddingTop: `${theme.img === "" ? "0px" : "55px"}`,
+                                                 paddingBottom: `${theme.img === "" ? "0px" : "55px"}`,
+                                             }}
+                                        />
                                     </div>
                                 </div>
                             </div>

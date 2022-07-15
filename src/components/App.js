@@ -16,7 +16,6 @@ import styled from "styled-components";
 class App extends React.Component {
     constructor(props) {
         super(props);
-
         this.toggleTheme = () => {
             this.setState(state => ({
                 theme:
