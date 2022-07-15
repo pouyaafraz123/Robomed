@@ -259,14 +259,18 @@ hr {
   .contact {
     display: flex !important;
     justify-content: center !important;
-    align-items: center !important;
+	  align-items: center !important;
   }
 }
+
 @media only screen and (max-width: 553px) {
-  .my-footer h1 {
-    font-size: 18px;
-  }
-  .my-footer p {
-    font-size: 16px;
-  }
-}/*# sourceMappingURL=main.css.map */
+	.my-footer h1 {
+		font-size: 18px;
+	}
+
+	.my-footer p {
+		font-size: 16px;
+	}
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -20,10 +20,10 @@ class TopBar extends React.Component {
               <a className="navbar-brand" href="#">
                 <div className="d-flex flex-row align-items-center justify-content-start Logo-Bar">
                   <div className="d-flex flex-row align-items-center justify-content-between">
-                    <Logo />
-                    <ThemeSwitcher />
+                    <Logo/>
+                    <h4 className={"logo__title pr-lg-3"}>RoboMed</h4>
                   </div>
-                  <h4 className={"logo__title pl-lg-5"}>RoboMed</h4>
+                  <div className={"py-4"}><ThemeSwitcher/></div>
                 </div>
               </a>
             </div>
