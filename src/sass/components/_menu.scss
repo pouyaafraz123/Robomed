@@ -9,6 +9,13 @@
     .navbar-nav {
         text-align: center !important;
     }
+
+    .Logo-Bar {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }
 
 @media only screen and(max-width: 466px) {
@@ -22,4 +29,6 @@
         width: 100%;
         justify-content: center;
     }
+
+    
 }

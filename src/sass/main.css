@@ -9,6 +9,12 @@
   .navbar-nav {
     text-align: center !important;
   }
+  .Logo-Bar {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
 @media only screen and (max-width: 466px) {
   .navbar-nav {
@@ -263,6 +269,4 @@ hr {
   .my-footer p {
     font-size: 16px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
