@@ -17,7 +17,7 @@ class TopBar extends React.Component {
             } d-flex justify-content-between align-content-center`}
           >
             <div className="responsive-logo">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand mx-auto" href="#">
                 <div className="d-flex flex-row align-items-center justify-content-start Logo-Bar">
                   <div className="d-flex flex-row align-items-center justify-content-between">
                     <Logo/>

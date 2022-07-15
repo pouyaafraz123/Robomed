@@ -25,7 +25,7 @@ class App extends React.Component {
             }));
         };
         this.state = {
-            theme: Themes.light,
+            theme: Themes.dark,
             toggleTheme: this.toggleTheme,
         };
     }
